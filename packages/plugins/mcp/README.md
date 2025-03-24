@@ -16,11 +16,14 @@ The Model Context Protocol (MCP) is an open standard that enables developers to 
 
 ## Installation
 
-1. Install the plugin:
+### Option 1: Install from GitHub
+
+1. Clone this repository into your Strapi project's plugins directory:
 
 ```bash
 cd your-strapi-project
-npm install @strapi/plugin-mcp
+mkdir -p packages/plugins
+git clone https://github.com/microsoftmj/strapimcp.git packages/plugins/mcp
 ```
 
 2. Install Python dependencies:
@@ -30,6 +33,15 @@ pip install fastapi uvicorn pydantic requests
 ```
 
 3. Restart Strapi
+
+### Option 2: Install as npm package (Coming Soon)
+
+Once published to npm, you'll be able to install with:
+
+```bash
+cd your-strapi-project
+npm install @strapi/plugin-mcp
+```
 
 ## Configuration
 
