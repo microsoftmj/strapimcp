@@ -16,7 +16,9 @@ The Model Context Protocol (MCP) is an open standard that enables developers to 
 
 ## Installation
 
-### Option 1: Install from GitHub
+For detailed installation instructions, see the [Comprehensive Installation Guide](./docs/INSTALLATION_GUIDE.md).
+
+### Quick Start
 
 1. Clone this repository into your Strapi project's plugins directory:
 
