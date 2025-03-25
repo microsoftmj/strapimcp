@@ -94,7 +94,7 @@ The MCP server should start automatically when Strapi boots. You should see outp
 To verify that the MCP server is running, you can access the health endpoint:
 
 ```bash
-curl http://localhost:8080/health
+curl http://YOUR_STRAPI_MCP_SERVER_ADDRESS:8080/health
 ```
 
 You should receive a response indicating that the server is healthy.

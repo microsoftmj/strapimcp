@@ -39,7 +39,7 @@ Claude Desktop uses a configuration file to connect to MCP servers. Follow these
 {
   "mcpServers": {
     "strapi": {
-      "url": "http://127.0.0.1:8080"
+      "url": "http://YOUR_STRAPI_MCP_SERVER_ADDRESS:8080"
     }
   }
 }
@@ -60,7 +60,7 @@ If you already have other MCP servers configured (like the filesystem server), a
       ]
     },
     "strapi": {
-      "url": "http://127.0.0.1:8080"
+      "url": "http://YOUR_STRAPI_MCP_SERVER_ADDRESS:8080"
     }
   }
 }
@@ -94,7 +94,7 @@ If Claude Desktop doesn't recognize the Strapi MCP tools:
 
 1. **Check MCP Server Status**
    - Verify that the Strapi MCP server is running
-   - Check that you can access `http://localhost:8080/health` in your browser
+   - Check that you can access the health endpoint at your MCP server address
 
 2. **Verify Configuration**
    - Make sure the configuration file has the correct format
@@ -117,7 +117,7 @@ The most common issue is using the wrong configuration format. Make sure you're 
 
 ```json
 "strapi": {
-  "url": "http://127.0.0.1:8080"
+  "url": "http://YOUR_STRAPI_MCP_SERVER_ADDRESS:8080"
 }
 ```
 
