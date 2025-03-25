@@ -1,0 +1,20 @@
+{
+  "name": "@strapi/plugin-mcp",
+  "version": "0.1.0",
+  "description": "Model Context Protocol (MCP) wrapper for Strapi",
+  "private": true,
+  "strapi": {
+    "name": "mcp",
+    "displayName": "Model Context Protocol",
+    "description": "Enables external service access to Strapi via Model Context Protocol (MCP)",
+    "kind": "plugin"
+  },
+  "dependencies": {
+    "fastapi": "^0.1.0",
+    "uvicorn": "^0.23.0"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  }
+}
