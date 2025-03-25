@@ -185,7 +185,7 @@ npm run develop -- --no-mcp
 To run the integration tests:
 
 ```bash
-cd packages/plugins/mcp
+cd plugins/mcp
 node integration_test.js
 ```
 
