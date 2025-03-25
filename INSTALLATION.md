@@ -65,7 +65,13 @@ pip install fastapi uvicorn pydantic requests
 
 ### 5. Configure the Plugin
 
-Create a `.env` file in your Strapi project root (if it doesn't exist already) and add the following configuration:
+Copy the `.env.example` file from the plugin directory to your Strapi project root as `.env`:
+
+```bash
+cp plugins/mcp/.env.example .env
+```
+
+This file contains the following configuration:
 
 ```
 # MCP Server Configuration
