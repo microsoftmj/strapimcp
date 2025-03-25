@@ -48,13 +48,13 @@ cd path/to/your-strapi-project
 1. Create the plugins directory structure:
 
 ```bash
-mkdir -p packages/plugins
+mkdir -p plugins
 ```
 
 2. Clone the MCP plugin repository:
 
 ```bash
-git clone https://github.com/microsoftmj/strapimcp.git packages/plugins/mcp
+git clone https://github.com/microsoftmj/strapimcp.git plugins/mcp
 ```
 
 3. Install Python dependencies:
@@ -117,7 +117,7 @@ If the MCP server doesn't start automatically with Strapi, you can start it manu
 
 ```bash
 # Navigate to the plugin directory
-cd packages/plugins/mcp
+cd plugins/mcp
 
 # Start the MCP server
 python -m mcp_server.server
@@ -168,7 +168,7 @@ python -m mcp_server.server
 4. **MCP Server Not Starting**
 
    If the MCP server doesn't start automatically with Strapi, check:
-   - The plugin is correctly installed in the `packages/plugins/mcp` directory
+   - The plugin is correctly installed in the `plugins/mcp` directory
    - The `MCP_ENABLED` environment variable is set to `true`
    - There are no errors in the Strapi logs
 

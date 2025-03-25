@@ -24,8 +24,8 @@ For detailed installation instructions, see the [Comprehensive Installation Guid
 
 ```bash
 cd your-strapi-project
-mkdir -p packages/plugins
-git clone https://github.com/microsoftmj/strapimcp.git packages/plugins/mcp
+mkdir -p plugins
+git clone https://github.com/microsoftmj/strapimcp.git plugins/mcp
 ```
 
 2. Install Python dependencies:
